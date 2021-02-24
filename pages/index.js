@@ -1,65 +1,46 @@
-import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+
     <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+      <div className={styles.grid}>
+        <a href="https://meditationmusic.netlify.app/" target="_blank" className={styles.card}>
+          <img src="/meditation.gif"></img>
+          <p>Train Delay Tracking and Meditation App</p>
         </a>
-      </footer>
+        <a
+          href="https://obtrax-app.vercel.app/" target="_blank" className={styles.card}>
+          <img src="/slideshow.gif"></img>
+          <p>Women-in-Delivery Contraction Monitor App</p>
+        </a>
+
+      </div>
+      <a
+        href="https://rainyreed.eu.pythonanywhere.com/" target="_blank" className={styles.card} className={styles.card} >
+        <img src="/web-store.gif"></img>
+        <p> Python Sqlite Second-hand Furniture Web Store</p>
+      </a>
+      <div className={styles.card}>
+        <img src="/school-intranet.gif"></img>
+        <p>Reykjavik Web Development School Intranet</p>
+      </div>
+
+      <a
+        href="https://editor.p5js.org/rainnie/present/pq19a97cy" target="_blank" className={styles.card} className={styles.card} >
+        <img src="/quarantine-portait.gif"></img>
+        <p>Birds Flying Out of Cage --Sprite Animation</p>
+      </a>
+
+      <div className={styles.card}>
+        <img src="/football-detection.gif"></img>
+        <p>
+          Football Players and Ball Detection with AI Solution
+            </p>
+      </div>
+
     </div>
   )
 }
