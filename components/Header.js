@@ -16,6 +16,13 @@ function Header() {
                     </li>
                     <li>
                         <h2>
+                            <Link href="/design">
+                            <a>Designs</a>
+                            </Link>
+                        </h2>
+                    </li>
+                    <li>
+                        <h2>
                             <Link href="/about">
                             <a>About me</a>
                             </Link>

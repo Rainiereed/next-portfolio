@@ -107,6 +107,14 @@
   display: block;
 }
 
+.card video {
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+  margin: auto;
+  display: block;
+}
+
 .buttons{
   display: flex;
   flex-direction: row;

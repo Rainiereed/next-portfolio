@@ -19,7 +19,12 @@ export default function Home() {
 
       </div>
       <a
-        href="https://rainyreed.eu.pythonanywhere.com/" target="_blank" className={styles.card} className={styles.card} >
+        href="https://obtrax.net/" target="_blank" className={styles.card} >
+        <img src="/Obstetrics-Forecast.gif"></img>
+        <p> Obtrax Midwife Dashboard Data Visualization</p>
+      </a>
+      <a
+        href="https://rainyreed.eu.pythonanywhere.com/" target="_blank" className={styles.card} >
         <img src="/web-store.gif"></img>
         <p> Python Sqlite Second-hand Furniture Web Store</p>
       </a>
@@ -27,9 +32,12 @@ export default function Home() {
         <img src="/school-intranet.gif"></img>
         <p>Reykjavik Web Development School Intranet</p>
       </div>
-
+      <div className={styles.card}>
+        <video src="/gallery.mp4" controls></video>
+        <p>Students Works 3D Gallery for School Intranet</p>
+      </div>
       <a
-        href="https://editor.p5js.org/rainnie/present/pq19a97cy" target="_blank" className={styles.card} className={styles.card} >
+        href="https://editor.p5js.org/rainnie/present/pq19a97cy" target="_blank" className={styles.card} >
         <img src="/quarantine-portait.gif"></img>
         <p>Birds Flying Out of Cage --Sprite Animation</p>
       </a>

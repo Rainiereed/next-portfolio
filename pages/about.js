@@ -23,7 +23,7 @@ export default function About() {
                 <div>
                     <h2>Education</h2>
                     <br/>
-                    <h3>Frontend Developer, Diploma,</h3>
+                    <h3>Frontend Developer, Vacational School Diploma</h3>
                     <p>Hyper Island, 2019.8-2021.4</p>
                     <hr></hr>
                     <br/>
@@ -39,7 +39,7 @@ export default function About() {
             <div className={styles.card}>
                 <h2>Contact Me</h2>
                 <h3>Email</h3>
-                <a href = "mailto: wei.lu@hyperisland.se"><p>wei.lu@hyperisland.se</p></a>
+                <a href = "mailto: lu.wei.sweden@outlook.com"><p>lu.wei.sweden@outlook.com</p></a>
             </div>
         
         </div>
