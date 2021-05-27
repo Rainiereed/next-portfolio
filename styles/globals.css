@@ -43,8 +43,8 @@ h2 {
 ul {
   list-style-type: none;
   display: flex;
-  gap: 6rem;
-  justify-content: center;
+  gap: 2rem;
+  justify-content: space-between;
   padding: 0;
 }
 
