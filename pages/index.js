@@ -24,6 +24,11 @@ export default function Home() {
         <p> Obtrax Midwife Dashboard Data Visualization</p>
       </a>
       <a
+        href="https://binga-2021-wei.vercel.app/tours.html" target="_blank" className={styles.card} >
+        <img src="/Tourism-website.gif"></img>
+        <p> Binga Beach Tourist Website</p>
+      </a>
+      <a
         href="https://rainyreed.eu.pythonanywhere.com/" target="_blank" className={styles.card} >
         <img src="/web-store.gif"></img>
         <p> Python Sqlite Second-hand Furniture Web Store</p>
